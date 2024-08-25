@@ -1,0 +1,23 @@
+body{
+    background: hsl(332, 100%, 91%);
+    color: hsl(234, 47%, 17%);
+}
+
+.heading{
+    color: #8f8f8f;
+    font-size: 30px;
+    width: 80%;
+    letter-spacing: 2px;
+}
+
+#capture_image, #identify_image{
+    border: 2px solid rgb(179, 69, 114);
+    width: 350px;
+    height: 300px;
+}
+
+#result_object_name, #result_object_accuracy{
+    color: #682a2a;
+    font-size: 25px;
+    font-weight: bold;
+}
